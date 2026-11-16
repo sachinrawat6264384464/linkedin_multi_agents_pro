@@ -47,3 +47,4 @@ class MonitoringAgent(BaseAgent):
             data={"health_audit": health_audit},
             duration_ms=duration
         )
+

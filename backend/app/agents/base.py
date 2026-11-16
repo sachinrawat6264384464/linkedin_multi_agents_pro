@@ -57,3 +57,4 @@ class BaseAgent(ABC):
             temperature=temperature,
             format_json=format_json
         )
+

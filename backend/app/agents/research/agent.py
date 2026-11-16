@@ -74,3 +74,4 @@ class ResearchAgent(BaseAgent):
             },
             duration_ms=duration
         )
+

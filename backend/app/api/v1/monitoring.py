@@ -118,3 +118,4 @@ async def switch_model(payload: SwitchModelRequest) -> Dict[str, Any]:
         "context_window": payload.context_window,
         "temperature": payload.temperature
     }
+

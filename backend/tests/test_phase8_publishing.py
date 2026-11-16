@@ -110,3 +110,4 @@ async def test_manual_copy_formatter_endpoint():
         assert data["is_within_limit"] is True
         assert "#Architecture" in data["formatted_text"]
         assert data["media_count"] == 1
+

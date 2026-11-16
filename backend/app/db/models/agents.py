@@ -22,3 +22,4 @@ class Agent(Base):
 
     # Relationships
     permissions = relationship("MCPToolPermission", back_populates="agent", cascade="all, delete-orphan")
+

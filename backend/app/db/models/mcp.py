@@ -43,3 +43,4 @@ class MCPToolPermission(Base):
 
     agent = relationship("Agent", back_populates="permissions")
     tool = relationship("MCPTool", back_populates="permissions")
+

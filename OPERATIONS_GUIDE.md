@@ -86,3 +86,4 @@ If LinkedIn or Cloudinary credentials are not yet configured:
 - The system automatically engages **Manual Fallback Mode**.
 - The approval gate still enforces SHA-256 zero-trust verification.
 - Once approved, the post is staged for manual publishing, providing a 1-click formatted clipboard copy button in the **Publishing History** view so operators can paste directly to the LinkedIn web interface.
+

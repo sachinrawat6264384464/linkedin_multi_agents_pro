@@ -37,3 +37,4 @@ class PublishedPost(Base):
     published_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
 
     account = relationship("LinkedInAccount", back_populates="published_posts")
+

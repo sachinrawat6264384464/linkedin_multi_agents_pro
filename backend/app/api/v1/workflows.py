@@ -62,3 +62,4 @@ async def trigger_workflow(request: RunWorkflowRequest):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Workflow execution failed: {str(e)}"
         )
+

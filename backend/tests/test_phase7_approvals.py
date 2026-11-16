@@ -63,3 +63,4 @@ async def test_sign_approval_api_endpoint():
         assert result["status"] == "success"
         assert result["ticket"]["status"] == "APPROVED"
         assert result["ticket"]["reviewer_notes"] == "Ready for LinkedIn broadcast"
+

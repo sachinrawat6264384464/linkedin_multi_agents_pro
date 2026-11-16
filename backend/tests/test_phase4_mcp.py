@@ -72,3 +72,4 @@ async def test_mcp_permission_denial_enforcement():
         )
         assert response.status_code == 403
         assert "PERMISSION_DENIED" in response.json()["detail"]
+

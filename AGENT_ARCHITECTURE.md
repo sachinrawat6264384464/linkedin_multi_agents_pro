@@ -82,3 +82,4 @@ flowchart TD
     style Checkpoint fill:#E53935,stroke:#fff,color:#fff
     style Publisher fill:#0077B5,stroke:#fff,color:#fff
 ```
+

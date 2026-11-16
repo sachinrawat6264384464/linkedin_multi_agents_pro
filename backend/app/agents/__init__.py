@@ -31,3 +31,4 @@ def get_agent(agent_id: str) -> BaseAgent:
 def list_agents() -> Dict[str, BaseAgent]:
     """Retrieve all 8 active agents."""
     return _AGENTS
+

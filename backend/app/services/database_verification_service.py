@@ -105,3 +105,4 @@ class DatabaseVerificationService:
                 counts[table_name] = 0
 
         return counts
+

@@ -46,3 +46,4 @@ class MasterOrchestrator(BaseAgent):
             data={"orchestration_plan": plan},
             duration_ms=duration
         )
+

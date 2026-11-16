@@ -60,3 +60,4 @@ class DatabaseAgent(BaseAgent):
             },
             duration_ms=duration
         )
+

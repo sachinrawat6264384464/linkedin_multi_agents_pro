@@ -61,3 +61,4 @@ class ResearchService:
                 "publication_date": "2024-10"
             }
         ]
+

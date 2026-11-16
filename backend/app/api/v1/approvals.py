@@ -60,3 +60,4 @@ async def sign_approval_ticket(approval_id: str, request: SignApprovalRequest):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Approval ticket '{approval_id}' not found"
         )
+

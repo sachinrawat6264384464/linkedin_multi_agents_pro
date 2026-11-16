@@ -109,3 +109,4 @@ async def test_model_status_and_switch_endpoint():
         )
         assert switch_resp.status_code == 200
         assert switch_resp.json()["new_model"] == "qwen2.5:7b-instruct"
+

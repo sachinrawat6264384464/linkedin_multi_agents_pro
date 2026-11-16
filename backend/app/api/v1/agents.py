@@ -71,3 +71,4 @@ async def update_agent_config(agent_id: str, request: UpdateAgentPromptRequest):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Agent '{agent_id}' does not exist"
         )
+

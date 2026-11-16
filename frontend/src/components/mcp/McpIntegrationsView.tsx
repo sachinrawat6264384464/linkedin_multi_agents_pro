@@ -210,3 +210,4 @@ export const McpIntegrationsView: React.FC = () => {
     </div>
   );
 };
+

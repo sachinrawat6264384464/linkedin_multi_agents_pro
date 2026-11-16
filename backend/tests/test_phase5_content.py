@@ -77,3 +77,4 @@ async def test_content_draft_save_and_checksum():
         data = response.json()
         assert data["status"] == "saved"
         assert data["checksum"] == expected_checksum
+

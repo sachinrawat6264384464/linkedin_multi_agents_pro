@@ -60,3 +60,4 @@ class VisualDesignerAgent(BaseAgent):
             data={"media_asset": media_asset},
             duration_ms=duration
         )
+

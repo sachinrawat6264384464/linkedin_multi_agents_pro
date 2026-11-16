@@ -56,3 +56,4 @@ class WorkflowState(TypedDict, total=False):
     post_urn: Optional[str]
     post_url: Optional[str]
     publishing_mode: Optional[str]
+

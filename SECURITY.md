@@ -80,3 +80,4 @@ Attempts to invoke tools outside an agent's allocated role trigger immediate sec
 2. **Cloudinary Asset Storage**:
    - PDF carousels are strictly handled with `resource_type="raw"` to prevent MIME corruption or invalid transformations.
    - Direct memory streaming avoids ephemeral disk writes on cloud container filesystems.
+

@@ -79,3 +79,4 @@ class MCPPermissionManager:
     @staticmethod
     def get_allowed_tools_for_agent(agent_id: str) -> Set[str]:
         return _ALLOWED_PERMISSIONS.get(agent_id, set())
+

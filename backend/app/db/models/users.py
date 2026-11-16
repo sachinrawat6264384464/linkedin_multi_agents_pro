@@ -19,3 +19,4 @@ class User(Base):
 
     # Relationships
     linkedin_accounts = relationship("LinkedInAccount", back_populates="user", cascade="all, delete-orphan")
+

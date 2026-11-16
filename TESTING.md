@@ -50,3 +50,4 @@ npm run build
 - Verifies all 15 routes and components.
 - Zero TypeScript errors (`Finished TypeScript in 2.2s`).
 - All pages prerendered statically with instant route switching.
+

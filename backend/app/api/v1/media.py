@@ -81,3 +81,4 @@ async def create_carousel(request: CarouselRequest):
 async def list_media_assets():
     """Retrieve all generated diagram and carousel assets."""
     return _SAVED_MEDIA_ASSETS
+

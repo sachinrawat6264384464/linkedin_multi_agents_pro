@@ -55,3 +55,4 @@ async def test_carousel_endpoint():
         assert data["resource_type"] == "raw"
         assert data["format"] == "pdf"
         assert "cloudinary_url" in data
+

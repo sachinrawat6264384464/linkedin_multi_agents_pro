@@ -86,3 +86,4 @@ class BaseRepository(Generic[ModelType]):
         stmt = select(func.count()).select_from(self.model)
         result = await self.session.execute(stmt)
         return result.scalar() or 0
+

@@ -176,3 +176,4 @@ Synthesizes clean Mermaid.js architecture diagrams and flowcharts.
 
 ### `POST /media/carousel`
 Builds a 1080x1080 multi-slide PDF carousel in memory via ReportLab and streams directly to Cloudinary using `resource_type="raw"`.
+

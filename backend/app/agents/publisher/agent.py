@@ -84,3 +84,4 @@ class LinkedInPublisherAgent(BaseAgent):
             },
             duration_ms=duration
         )
+

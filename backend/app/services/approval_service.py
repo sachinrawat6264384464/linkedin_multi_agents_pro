@@ -79,3 +79,4 @@ class ApprovalService:
     @classmethod
     def list_all_approvals(cls) -> List[Dict[str, Any]]:
         return list(cls._APPROVALS_STORE.values())
+

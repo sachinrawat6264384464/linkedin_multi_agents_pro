@@ -82,3 +82,4 @@ async def save_content_draft(request: SaveDraftRequest):
 async def list_content_drafts():
     """Retrieve all saved content drafts and current versions."""
     return _SAVED_DRAFTS
+

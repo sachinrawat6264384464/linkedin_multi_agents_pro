@@ -68,3 +68,4 @@ def build_workflow_graph():
 
 # Global compiled workflow instance
 compiled_workflow = build_workflow_graph()
+

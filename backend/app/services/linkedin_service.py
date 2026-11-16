@@ -271,3 +271,4 @@ class LinkedInService:
 
 # Global Singleton Service
 linkedin_service = LinkedInService()
+

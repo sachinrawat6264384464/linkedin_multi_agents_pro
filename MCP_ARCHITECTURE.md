@@ -70,3 +70,4 @@ LinkedIn AgentOS adopts the **Model Context Protocol (MCP)** as its standardized
 | `database:*` | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | `monitoring:*` | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 | `agent:*` | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+

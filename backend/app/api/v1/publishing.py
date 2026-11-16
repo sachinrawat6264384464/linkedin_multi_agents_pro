@@ -126,3 +126,4 @@ async def format_for_manual_copy(payload: ManualCopyRequest) -> Dict[str, Any]:
         "media_urls": payload.media_urls,
         "ready_for_web_paste": True
     }
+

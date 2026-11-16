@@ -59,3 +59,4 @@ async def test_langgraph_workflow_run():
         assert "main_body" in result
         assert result["checksum"] is not None
         assert result["execution_steps"] >= 7
+
