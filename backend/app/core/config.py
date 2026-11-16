@@ -74,7 +74,13 @@ class Settings(BaseSettings):
 
     @property
     def is_cloudinary_configured(self) -> bool:
-        return bool(self.CLOUDINARY_CLOUD_NAME and self.CLOUDINARY_API_KEY and self.CLOUDINARY_API_SECRET)
+        return bool(
+            self.CLOUDINARY_CLOUD_NAME
+            and self.CLOUDINARY_API_KEY
+            and self.CLOUDINARY_API_SECRET
+            and "placeholder" not in self.CLOUDINARY_CLOUD_NAME.lower()
+            and "placeholder" not in self.CLOUDINARY_API_KEY.lower()
+        )
 
     @property
     def is_linkedin_configured(self) -> bool:
