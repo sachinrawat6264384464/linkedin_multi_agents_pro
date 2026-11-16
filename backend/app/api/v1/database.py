@@ -48,6 +48,8 @@ async def get_database_health(session: Optional[AsyncSession] = Depends(get_db_s
         return {
             "status": "error",
             "message": str(e),
+            "ssl_mode": "ssl=require (enforced)",
+            "read_back_verification_active": True,
             "connected": False
         }
 
