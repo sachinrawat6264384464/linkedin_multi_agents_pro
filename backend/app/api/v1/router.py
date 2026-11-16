@@ -10,6 +10,7 @@ from app.api.v1.content import router as content_router
 from app.api.v1.media import router as media_router
 from app.api.v1.approvals import router as approvals_router
 from app.api.v1.publishing import router as publishing_router
+from app.api.v1.monitoring import router as monitoring_router
 
 api_v1_router = APIRouter(prefix="/api/v1")
 
@@ -25,3 +26,4 @@ api_v1_router.include_router(content_router)
 api_v1_router.include_router(media_router)
 api_v1_router.include_router(approvals_router)
 api_v1_router.include_router(publishing_router)
+api_v1_router.include_router(monitoring_router)

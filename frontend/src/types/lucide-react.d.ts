@@ -65,6 +65,11 @@ declare module "lucide-react" {
   export const Key: LucideIcon;
   export const Lock: LucideIcon;
   export const Shield: LucideIcon;
+  export const Terminal: LucideIcon;
+  export const Pause: LucideIcon;
+  export const Trash2: LucideIcon;
+  export const Zap: LucideIcon;
+  export const Server: LucideIcon;
 
   const icons: { [key: string]: LucideIcon };
   export default icons;
