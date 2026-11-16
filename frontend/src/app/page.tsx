@@ -7,6 +7,7 @@ import { OverviewView } from "@/components/dashboard/OverviewView";
 import { DatabaseCenterView } from "@/components/database/DatabaseCenterView";
 import { AgentsView } from "@/components/agents/AgentsView";
 import { WorkflowDagView } from "@/components/workflows/WorkflowDagView";
+import { McpIntegrationsView } from "@/components/mcp/McpIntegrationsView";
 import { api } from "@/lib/api-client";
 import { Bot, Workflow, CheckSquare, ShieldAlert, PenTool, Database, Plug, Activity, Settings as SettingsIcon } from "lucide-react";
 
@@ -76,7 +77,11 @@ export default function DashboardPage() {
             <DatabaseCenterView />
           )}
 
-          {activeTab !== "overview" && activeTab !== "agents" && activeTab !== "workflows" && activeTab !== "database" && (
+          {activeTab === "mcp" && (
+            <McpIntegrationsView />
+          )}
+
+          {activeTab !== "overview" && activeTab !== "agents" && activeTab !== "workflows" && activeTab !== "database" && activeTab !== "mcp" && (
             <div className="p-8 rounded-xl bg-[#141414] border border-[#262626] flex flex-col items-center justify-center min-h-[400px] text-center">
               <div className="w-12 h-12 rounded-xl bg-[#1f1f1f] border border-[#2e2e2e] flex items-center justify-center mb-4 text-[#E53935]">
                 <activeItem.icon className="w-6 h-6" />

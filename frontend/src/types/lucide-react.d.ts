@@ -43,6 +43,7 @@ declare module "lucide-react" {
   export const Edit3: LucideIcon;
   export const Save: LucideIcon;
   export const Sliders: LucideIcon;
+  export const Wrench: LucideIcon;
   export const FileText: LucideIcon;
   export const Clock: LucideIcon;
   export const AlertOctagon: LucideIcon;
