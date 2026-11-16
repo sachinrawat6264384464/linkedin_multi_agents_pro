@@ -12,6 +12,8 @@ import { ContentStudioView } from "@/components/content/ContentStudioView";
 import { ResearchLibraryView } from "@/components/research/ResearchLibraryView";
 import { MediaStudioView } from "@/components/media/MediaStudioView";
 import { ApprovalCenterView } from "@/components/approvals/ApprovalCenterView";
+import { PublishingHistoryView } from "@/components/publishing/PublishingHistoryView";
+import { SettingsView } from "@/components/settings/SettingsView";
 import { api } from "@/lib/api-client";
 import { Bot, Workflow, CheckSquare, ShieldAlert, PenTool, Database, Plug, Activity, Settings as SettingsIcon } from "lucide-react";
 
@@ -101,7 +103,25 @@ export default function DashboardPage() {
             <McpIntegrationsView />
           )}
 
-          {activeTab !== "overview" && activeTab !== "agents" && activeTab !== "workflows" && activeTab !== "content" && activeTab !== "research" && activeTab !== "database" && activeTab !== "mcp" && (
+          {activeTab === "publishing" && (
+            <PublishingHistoryView />
+          )}
+
+          {activeTab === "settings" && (
+            <SettingsView />
+          )}
+
+          {activeTab !== "overview" && 
+           activeTab !== "agents" && 
+           activeTab !== "workflows" && 
+           activeTab !== "approvals" &&
+           activeTab !== "content" && 
+           activeTab !== "media" &&
+           activeTab !== "research" && 
+           activeTab !== "publishing" &&
+           activeTab !== "database" && 
+           activeTab !== "mcp" && 
+           activeTab !== "settings" && (
             <div className="p-8 rounded-xl bg-[#141414] border border-[#262626] flex flex-col items-center justify-center min-h-[400px] text-center">
               <div className="w-12 h-12 rounded-xl bg-[#1f1f1f] border border-[#2e2e2e] flex items-center justify-center mb-4 text-[#E53935]">
                 <activeItem.icon className="w-6 h-6" />

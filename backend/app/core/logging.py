@@ -22,4 +22,8 @@ def setup_logging(debug: bool = True) -> logging.Logger:
     return logger
 
 
+def get_logger(name: str = "agentos") -> logging.Logger:
+    return logging.getLogger(name)
+
+
 logger = setup_logging()

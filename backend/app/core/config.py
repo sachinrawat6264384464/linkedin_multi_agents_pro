@@ -84,7 +84,12 @@ class Settings(BaseSettings):
 
     @property
     def is_linkedin_configured(self) -> bool:
-        return bool(self.LINKEDIN_CLIENT_ID and self.LINKEDIN_CLIENT_SECRET)
+        return bool(
+            self.LINKEDIN_CLIENT_ID
+            and self.LINKEDIN_CLIENT_SECRET
+            and "placeholder" not in self.LINKEDIN_CLIENT_ID.lower()
+            and "placeholder" not in self.LINKEDIN_CLIENT_SECRET.lower()
+        )
 
 
 settings = Settings()
