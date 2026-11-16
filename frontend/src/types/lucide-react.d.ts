@@ -49,6 +49,9 @@ declare module "lucide-react" {
   export const Eye: LucideIcon;
   export const Hash: LucideIcon;
   export const Download: LucideIcon;
+  export const XCircle: LucideIcon;
+  export const MessageSquare: LucideIcon;
+  export const Fingerprint: LucideIcon;
   export const FileText: LucideIcon;
   export const Clock: LucideIcon;
   export const AlertOctagon: LucideIcon;

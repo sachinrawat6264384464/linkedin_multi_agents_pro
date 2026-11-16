@@ -11,6 +11,7 @@ import { McpIntegrationsView } from "@/components/mcp/McpIntegrationsView";
 import { ContentStudioView } from "@/components/content/ContentStudioView";
 import { ResearchLibraryView } from "@/components/research/ResearchLibraryView";
 import { MediaStudioView } from "@/components/media/MediaStudioView";
+import { ApprovalCenterView } from "@/components/approvals/ApprovalCenterView";
 import { api } from "@/lib/api-client";
 import { Bot, Workflow, CheckSquare, ShieldAlert, PenTool, Database, Plug, Activity, Settings as SettingsIcon } from "lucide-react";
 
@@ -74,6 +75,10 @@ export default function DashboardPage() {
 
           {activeTab === "workflows" && (
             <WorkflowDagView />
+          )}
+
+          {activeTab === "approvals" && (
+            <ApprovalCenterView />
           )}
 
           {activeTab === "content" && (
