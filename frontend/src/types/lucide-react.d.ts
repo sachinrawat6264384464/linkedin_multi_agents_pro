@@ -37,6 +37,12 @@ declare module "lucide-react" {
   export const RefreshCw: LucideIcon;
   export const Table: LucideIcon;
   export const AlertTriangle: LucideIcon;
+  export const Play: LucideIcon;
+  export const ArrowRight: LucideIcon;
+  export const Send: LucideIcon;
+  export const Edit3: LucideIcon;
+  export const Save: LucideIcon;
+  export const Sliders: LucideIcon;
   export const FileText: LucideIcon;
   export const Clock: LucideIcon;
   export const AlertOctagon: LucideIcon;
